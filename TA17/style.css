@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.centrado {
+    display: flex;            
+    justify-content: center;   
+    align-items: center;    
+    height: 100%;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;          
+    flex-direction: column;   
+    vertical-align: middle;
+   
+    width: 300px;           
+    padding: 20px;           
+    border-radius: 20%;       
+    border: 10px solid black; 
+    position: relative;
+}
+div >img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 190px;
+    padding-bottom: 10px;
+    right:250px
+}
